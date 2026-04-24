@@ -10,11 +10,11 @@ export default function Home() {
       </p>
 
       <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
-        <div className="rounded-xl bg-white p-6 shadow">
-          <h2 className="text-lg font-semibold text-gray-700">Șoferi</h2>
-          <p className="mt-2 text-3xl font-bold text-gray-900">0</p>
-        </div>
-
+        <a href="/drivers" className="rounded-xl bg-white p-6 shadow block">
+  <h2 className="text-lg font-semibold text-gray-700">Șoferi</h2>
+  <p className="mt-2 text-3xl font-bold text-gray-900">1</p>
+  <p className="mt-2 text-sm text-gray-500">Vezi lista șoferilor</p>
+</a>
         <div className="rounded-xl bg-white p-6 shadow">
           <h2 className="text-lg font-semibold text-gray-700">Mașini</h2>
           <p className="mt-2 text-3xl font-bold text-gray-900">0</p>
